@@ -1,0 +1,107 @@
+body {
+    background-color: #FFFCFF;
+    font-family: 'Cairo', sans-serif;
+}
+
+h1 {
+    font-size: 30;
+   color: #FFFCFF;
+   line-height: 20px;
+}
+
+h2  {
+    line-height: 20px;
+    font-size: 20;
+    color: #FFFCFF;
+}
+
+p {
+    font-size: 15;
+    text-align: center;
+    color: FFFCFF;
+    padding: 10px;
+}
+
+.container {
+    display: block;
+    background: #00171F;
+    width: 600px;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 30px 10px rgba(0,0,0,.1);
+}
+
+.header_card{
+    display: block;
+    background: #00171F;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.card {
+    display: block;
+    background: #00171F;
+    border-radius: 5px;
+    margin: 30px 100px;
+
+}
+.header_card a {
+    display: block;
+    background: #4FB477;
+    text-decoration: none;
+    color: #FFFCFF;
+    margin: 5px auto;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.header_card a:hover {
+    background: #FFFCFF;
+    color: #4FB477;
+    text-decoration: underline;
+}
+.card li a:hover {
+    color: #4FB477;
+}
+
+.card li {
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+    padding-left: 0px;
+    font-size: 20;
+    
+  }
+
+.card li a {
+    color: #FFFCFF;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+    .card {
+        margin: 15px 50px;
+    }
+    .header_card a {
+        width: 200px;
+    }
+
+  }
